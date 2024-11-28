@@ -32,6 +32,9 @@
         "laravel": {
             "providers": [
                 "Chack1172\\Intervention\\Image\\ImageServiceProvider"
+            ],
+            "dont-discover": [
+                "intervention/image"
             ]
         }
     },
